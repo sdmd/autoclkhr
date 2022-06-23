@@ -1,0 +1,10 @@
+pipenv install **
+pipenv run pip freeze > requirements.txt
+/////////////////////////////////
+md twilio-dashboard
+cd twilio-dashboard
+python -m venv venv
+venv\Scripts\activate
+(venv) $ pip install flask python-dotenv twilio
+/////////////////////////////////
+Chrome version ChromeDriver 102.0.5005.61
