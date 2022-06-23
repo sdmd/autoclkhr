@@ -17,7 +17,8 @@ def curr_time():
 
 
 tele_auth_token = "5295826579:AAHVm6nfkYH-npZHTK5nuPKO4mAB1YGAAsM"
-tel_group_id = "5276990520"
+#tel_group_id = "5276990520"
+tel_group_id = "-544287525"
 
 def send_msg_on_telegram(msg):
     telegram_api_url = "https://api.telegram.org/bot" + tele_auth_token + "/sendMessage?chat_id=" + tel_group_id + "&text=" + msg
